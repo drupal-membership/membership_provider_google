@@ -1,0 +1,10 @@
+{
+  "name": "drupal-membership/membership_provider_google,
+  "type": "drupal-module",
+  "description": "Membership Provider for Google Play",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/drupal-membership/membership_provider_google",
+  "minimum-stability": "dev",
+  "require": { }
+}
