@@ -1,5 +1,5 @@
 {
-  "name": "drupal-membership/membership_provider_google,
+  "name": "drupal-membership/membership_provider_google",
   "type": "drupal-module",
   "description": "Membership Provider for Google Play",
   "keywords": ["Drupal"],
