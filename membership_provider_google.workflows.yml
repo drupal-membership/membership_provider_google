@@ -1,0 +1,22 @@
+membership_google:
+  id: membership_google
+  label: Google Membership supporting recurring billing
+  group: membership
+  states:
+    active:
+      label: Active
+    expired:
+      label: Expired
+  transitions:
+    expire:
+      label: Expire
+      from: [active]
+      to: expired
+    restart:
+      label: Restart
+      from: [expired]
+      to: active
+    rebill:
+      label: Rebill
+      from: [active]
+      to: active

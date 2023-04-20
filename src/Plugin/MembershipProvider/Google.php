@@ -19,28 +19,35 @@ use Drupal\membership\Plugin\MembershipProviderBase;
 final class Google extends MembershipProviderBase {
 
   /**
-   * @inheritDoc
+   * {@inheritDoc}
    */
   public function postCreateMembership(MembershipInterface $membership, array $pluginValues = []): void {
     // TODO: Implement postCreateMembership() method.
   }
 
   /**
-   * @inheritDoc
+   * {@inheritDoc}
+   */
+  public function getWorkflowId(): string {
+    return 'membership_google';
+  }
+
+  /**
+   * {@inheritDoc}
    */
   public function buildConfigurationForm(array $form, FormStateInterface $form_state) {
     return $form;
   }
 
   /**
-   * @inheritDoc
+   * {@inheritDoc}
    */
   public function validateConfigurationForm(array &$form, FormStateInterface $form_state) {
     // TODO: Implement validateConfigurationForm() method.
   }
 
   /**
-   * @inheritDoc
+   * {@inheritDoc}
    */
   public function submitConfigurationForm(array &$form, FormStateInterface $form_state) {
     // TODO: Implement submitConfigurationForm() method.
