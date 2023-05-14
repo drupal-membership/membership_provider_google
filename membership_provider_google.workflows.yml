@@ -20,3 +20,7 @@ membership_google:
       label: Rebill
       from: [active]
       to: active
+    activate:
+      label: Activate
+      from: [active]
+      to: active
