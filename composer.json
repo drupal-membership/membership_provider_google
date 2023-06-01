@@ -6,5 +6,7 @@
   "license": "GPL-2.0+",
   "homepage": "https://github.com/drupal-membership/membership_provider_google",
   "minimum-stability": "dev",
-  "require": { }
+  "require": {
+      "drupal/membership": "^2"
+  }
 }
